@@ -1,6 +1,3 @@
-Here’s the updated `README.md` with the requested changes:
-
-```markdown
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -22,6 +19,44 @@ Here’s the updated `README.md` with the requested changes:
     <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
   <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 </p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+
+## Description
+
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
 
 ## Description
 
@@ -48,53 +83,22 @@ To access **admin-protected endpoints** (e.g., creating or deleting products):
 1. **Copy the `.env.example` file** to `.env`:
    ```bash
    cp .env.example .env
-   ```
-2. **Update the `.env` file** with your PostgreSQL database credentials and JWT secret:
-   ```env
-   DB_HOST=your_db_host
-   DB_PORT=your_db_port
-   DB_USERNAME=your_db_username
-   DB_PASSWORD=your_db_password
-   DB_DATABASE=your_db_name
-   JWT_SECRET=your_jwt_secret_key
-   ```
+Update the .env file with your PostgreSQL database credentials and JWT secret:
 
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the App
-
-```bash
-# Development mode
-$ npm run start
-
-# Watch mode (auto-reload on changes)
-$ npm run start:dev
-
-# Production mode
-$ npm run start:prod
-```
-
-## Testing
-
-Run unit tests with:
-```bash
-$ npm run test
-```
-
-For detailed test coverage:
-```bash
-$ npm run test:cov
-```
+env
+Copy
+DB_HOST=your_db_host
+DB_PORT=your_db_port
+DB_USERNAME=your_db_username
+DB_PASSWORD=your_db_password
+DB_DATABASE=your_db_name
+JWT_SECRET=your_jwt_secret_key
 
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in Touch
+## Stay in touch
 
 - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
 - Website - [https://nestjs.com](https://nestjs.com/)
@@ -103,4 +107,3 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
-```
