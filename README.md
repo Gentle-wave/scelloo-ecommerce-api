@@ -65,7 +65,7 @@ A NestJS-based RESTful API for managing products in an e-commerce store. Include
 ### Accessing Admin Endpoints
 To access **admin-protected endpoints** (e.g., creating or deleting products):
 1. **Log in via Swagger UI**:
-   - Navigate to the Swagger documentation at `http://localhost:3000/api`.
+   - Navigate to the Swagger documentation at `http://localhost:5100/api` or `https://scelloo-ecommerce-api.onrender.com`.
    - Use the default credentials:
      ```json
      {
