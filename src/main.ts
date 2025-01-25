@@ -35,13 +35,6 @@ async function bootstrap() {
     SwaggerModule.setup('api', app, document);
   }
 
-  app.use('/', (req: Request, res: Response) => {
-    res.send(`
-      <h1>Hello, Welcome!</h1>
-      <p>Please navigate to the <a href="/api">API documentation</a>.</p>
-    `);
-  })
-
   await app.listen(5100);
 }
 bootstrap();
